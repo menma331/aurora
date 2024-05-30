@@ -1,6 +1,6 @@
 # AURORA
 
-<img src="/doc/images/aurora-logo.jpeg">
+<img src="doc/images/aurora-logo.jpeg">
 
 ### 📃 Содержание
 
