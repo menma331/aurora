@@ -1,6 +1,6 @@
 # AURORA
 
-<img src="/doc/images/aurora-logo.jpeg">
+<img src="/doc/images/aurora-logo.jpeg" width="600" height="550" align="middle">
 
 ### 📃 Содержание
 
@@ -69,5 +69,5 @@
 <a name="authors"></a>
 ### 🧙‍♂️ Авторы ###
 <ul>
-<li><a href="#">Сыса Роман Алексеевич</a></li>
+<li><a href="https://github.com/menma331">Сыса Роман Алексеевич</a></li>
 </ul>
