@@ -5,7 +5,7 @@ from django.db import models
 #     """Base manager for all models."""
 #
 #     def __delete__(self, instance):
-#         # TODO: Переписать метод delete(). Помечать как удаленный(deleted_at)
+#         # Переписать метод delete(). Помечать как удаленный(deleted_at)
 #         pass
 #
 #     def __all__(self):
@@ -21,7 +21,7 @@ class BaseModel(models.Model):
 
     objects = models.Manager()
 
-    # TODO: добавить общие поля.
+    # добавить общие поля.
     # created_at = models.DateTimeField(auto_now_add=True)
     # updated_at = models.DateTimeField(auto_now=True)
     # deleted_at = models.DateTimeField(auto_now=True, default=None)

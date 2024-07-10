@@ -81,7 +81,7 @@ class User(AbstractBaseUser):
     gender = models.CharField(
         max_length=1, choices=GenderChoices.choices, verbose_name="Пол"
     )
-    age = models.DateField(default='1970-11-11', verbose_name="Возраст")
+    age = models.DateField(default="1970-11-11", verbose_name="Возраст")
     purpose_of_communication = models.CharField(
         max_length=2,
         choices=PurposeOfCommunication.choices,
@@ -111,4 +111,4 @@ class User(AbstractBaseUser):
         default=False, verbose_name="Пользователь супер-админ"
     )
 
-    USERNAME_FIELD = 'email'
+    USERNAME_FIELD = "email"
